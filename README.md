@@ -1,9 +1,5 @@
 Here is the python notebook we used for the acceptance/rejection and VEGAS algorithms for the Drell-Yan Event Generator.
 
-The code has two main sections: OVERHEAD and INFERENCE.
+The code has two main sections: the first block defines the functions, the 2nd block runs them with selected parameters.
 
-The OVERHEAD block only needs to be run once and is almost entirely dedicated to setting up the Papaefstathiou function and VEGAS grid adaptations.
-
-The INFERENCE block is much faster, especially for VEGAS because it doesn't require as many function evaluations.
-
-No special instructions to run the notebook, the values in the 2nd block can be edited to compare the two methods.
+Default settings are 100,000 samples for acceptance/rejection and 10 iterations of 10,000 samples for VEGAS
